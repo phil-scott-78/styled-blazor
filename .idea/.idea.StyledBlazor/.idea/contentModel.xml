@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\phils\.nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\phils\.nuget\packages\microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\phils\.nuget\packages\microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\phils\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\phils\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\phils\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\phils\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\phils\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_StyledBlazor.-983585534.00" t="ExcludeRecursive" />
+    <e p="R:\Projects\StyledBlazor" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="StyledBlazor" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="ComponentBaseRecord.cs" t="Include" />
+          <e p="ElementRecords.cs" t="Include" />
+          <e p="ElementRecords.tt" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net5.0" t="Include">
+                <e p="StyledBlazor.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Styled.cs" t="Include" />
+          <e p="StyledBlazor.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+      <e p="StyledBlazor.sln" t="IncludeFlat" />
+      <e p="tests" t="Include">
+        <e p="StyledBlazor.Tests" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net5.0" t="Include">
+                <e p="StyledBlazor.Tests.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="StyledBlazor.Tests.csproj" t="IncludeRecursive" />
+          <e p="UnitTest1.cs" t="Include" />
+        </e>
+        <e p="StyledBlazor.TestWebProject" t="IncludeRecursive">
+          <e p="_Imports.razor" t="Include" />
+          <e p="App.razor" t="Include" />
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Data" t="Include">
+            <e p="WeatherForecast.cs" t="Include" />
+            <e p="WeatherForecastService.cs" t="Include" />
+          </e>
+          <e p="node_modules\tailwindcss" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net5.0" t="Include">
+                <e p="StyledBlazor.TestWebProject.AssemblyInfo.cs" t="Include" />
+                <e p="StyledBlazor.TestWebProject.RazorAssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="Pages" t="Include">
+            <e p="_Host.cshtml" t="Include" />
+            <e p="Counter.razor" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+            <e p="Error.cshtml.cs" t="Include" />
+            <e p="FetchData.razor" t="Include" />
+            <e p="Index.razor" t="Include" />
+          </e>
+          <e p="postcss.config.js" t="Include" />
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="MainLayout.razor" t="Include" />
+            <e p="NavMenu.razor" t="Include" />
+            <e p="SurveyPrompt.razor" t="Include" />
+          </e>
+          <e p="Startup.cs" t="Include" />
+          <e p="StyledBlazor.TestWebProject.csproj" t="IncludeRecursive" />
+          <e p="StyledComponents.cs" t="Include" />
+          <e p="Styles" t="Include">
+            <e p="styles.css" t="Include" />
+          </e>
+          <e p="tailwind.config.js" t="Include" />
+          <e p="wwwroot" t="Include">
+            <e p="css" t="Include">
+              <e p="styles.css" t="Include" />
+            </e>
+            <e p="favicon.ico" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
