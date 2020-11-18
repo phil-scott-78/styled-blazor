@@ -17,7 +17,7 @@ namespace StyledBlazor
         /// <summary>
         /// Constructs an instance of <see cref="ComponentBase"/>.
         /// </summary>
-        public ComponentBaseRecord()
+        protected ComponentBaseRecord()
         {
             _renderFragment = builder =>
             {
@@ -118,7 +118,7 @@ namespace StyledBlazor
         /// </param>
         /// <remarks>
         /// The <see cref="OnAfterRender(bool)"/> and <see cref="OnAfterRenderAsync(bool)"/> lifecycle methods
-        /// are useful for performing interop, or interacting with values recieved from <c>@ref</c>.
+        /// are useful for performing interop, or interacting with values received from <c>@ref</c>.
         /// Use the <paramref name="firstRender"/> parameter to ensure that initialization work is only performed
         /// once.
         /// </remarks>
@@ -138,7 +138,7 @@ namespace StyledBlazor
         /// <returns>A <see cref="Task"/> representing any asynchronous operation.</returns>
         /// <remarks>
         /// The <see cref="OnAfterRender(bool)"/> and <see cref="OnAfterRenderAsync(bool)"/> lifecycle methods
-        /// are useful for performing interop, or interacting with values recieved from <c>@ref</c>.
+        /// are useful for performing interop, or interacting with values received from <c>@ref</c>.
         /// Use the <paramref name="firstRender"/> parameter to ensure that initialization work is only performed
         /// once.
         /// </remarks>
@@ -183,9 +183,8 @@ namespace StyledBlazor
         /// <returns>A <see cref="Task"/> that completes when the component has finished updating and rendering itself.</returns>
         /// <remarks>
         /// <para>
-        /// The <see cref="SetParametersAsync(ParameterView)"/> method should be passed the entire set of parameter values each
-        /// time <see cref="SetParametersAsync(ParameterView)"/> is called. It not required that the caller supply a parameter
-        /// value for all parameters that are logically understood by the component.
+        /// Parameters are passed when <see cref="SetParametersAsync(ParameterView)"/> is called. It is not required that
+        /// the caller supply a parameter value for all of the parameters that are logically understood by the component.
         /// </para>
         /// <para>
         /// The default implementation of <see cref="SetParametersAsync(ParameterView)"/> will set the value of each property
@@ -229,7 +228,7 @@ namespace StyledBlazor
                 }
                 catch // avoiding exception filters for AOT runtime support
                 {
-                    // Ignore exceptions from task cancelletions.
+                    // Ignore exceptions from task cancellations.
                     // Awaiting a canceled task may produce either an OperationCanceledException (if produced as a consequence of
                     // CancellationToken.ThrowIfCancellationRequested()) or a TaskCanceledException (produced as a consequence of awaiting Task.FromCanceled).
                     // It's much easier to check the state of the Task (i.e. Task.IsCanceled) rather than catch two distinct exceptions.
@@ -270,7 +269,7 @@ namespace StyledBlazor
             }
             catch // avoiding exception filters for AOT runtime support
             {
-                // Ignore exceptions from task cancelletions, but don't bother issuing a state change.
+                // Ignore exceptions from task cancellations, but don't bother issuing a state change.
                 if (task.IsCanceled)
                 {
                     return;
@@ -282,7 +281,7 @@ namespace StyledBlazor
             StateHasChanged();
         }
 
-        Task IHandleEvent.HandleEventAsync(EventCallbackWorkItem callback, object arg)
+        Task IHandleEvent.HandleEventAsync(EventCallbackWorkItem callback, object? arg)
         {
             var task = callback.InvokeAsync(arg);
             var shouldAwaitTask = task.Status != TaskStatus.RanToCompletion &&
