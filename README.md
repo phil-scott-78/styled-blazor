@@ -9,3 +9,17 @@ namespace Buttons
     public record Secondary() : Styled.Button("btn btn-secondary");
 }
 ```
+
+Each of the above classes are the equivalent of one of these .blazor components
+
+```csharp
+<button class="btn btn-primary" @attributes="AdditionalAttributes">@ChildContent</button>
+
+@code {
+    [Parameter(CaptureUnmatchedValues = true)]
+    public IDictionary<string, object> AdditionalAttributes { get; set; }
+    
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}
+```
