@@ -10,7 +10,6 @@ using StyledBlazor;
 namespace Buttons
 {
     public record Primary() : Styled.Button("btn btn-primary");
-
     public record Secondary() : Styled.Button("btn btn-secondary");
 }
 

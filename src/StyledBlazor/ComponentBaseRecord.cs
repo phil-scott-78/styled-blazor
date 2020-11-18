@@ -43,14 +43,6 @@ namespace StyledBlazor
         /// <summary>
         /// Method invoked when the component is ready to start, having received its
         /// initial parameters from its parent in the render tree.
-        /// </summary>
-        protected virtual void OnInitialized()
-        {
-        }
-
-        /// <summary>
-        /// Method invoked when the component is ready to start, having received its
-        /// initial parameters from its parent in the render tree.
         ///
         /// Override this method if you will perform an asynchronous operation and
         /// want the component to refresh when that operation is completed.
@@ -210,7 +202,6 @@ namespace StyledBlazor
 
         private async Task RunInitAndSetParametersAsync()
         {
-            OnInitialized();
             var task = OnInitializedAsync();
 
             if (task.Status != TaskStatus.RanToCompletion && task.Status != TaskStatus.Canceled)
