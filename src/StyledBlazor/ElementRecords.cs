@@ -6,15 +6,15 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System;
-using System.Collections.Generic;
-
 #nullable enable
 
 namespace StyledBlazor
 {
     public partial record Styled
     {
+        /// <summary>
+        /// Creates a new styled component with a &lt;A&gt; tag
+        /// </summary>
         public record A : Styled
         {
             public A() : base("a")
@@ -26,6 +26,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Abbr&gt; tag
+        /// </summary>
         public record Abbr : Styled
         {
             public Abbr() : base("abbr")
@@ -37,6 +40,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Address&gt; tag
+        /// </summary>
         public record Address : Styled
         {
             public Address() : base("address")
@@ -48,6 +54,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Area&gt; tag
+        /// </summary>
         public record Area : Styled
         {
             public Area() : base("area")
@@ -59,6 +68,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Article&gt; tag
+        /// </summary>
         public record Article : Styled
         {
             public Article() : base("article")
@@ -70,6 +82,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Aside&gt; tag
+        /// </summary>
         public record Aside : Styled
         {
             public Aside() : base("aside")
@@ -81,6 +96,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Audio&gt; tag
+        /// </summary>
         public record Audio : Styled
         {
             public Audio() : base("audio")
@@ -92,6 +110,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;B&gt; tag
+        /// </summary>
         public record B : Styled
         {
             public B() : base("b")
@@ -103,6 +124,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Base&gt; tag
+        /// </summary>
         public record Base : Styled
         {
             public Base() : base("base")
@@ -114,6 +138,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Bdi&gt; tag
+        /// </summary>
         public record Bdi : Styled
         {
             public Bdi() : base("bdi")
@@ -125,6 +152,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Bdo&gt; tag
+        /// </summary>
         public record Bdo : Styled
         {
             public Bdo() : base("bdo")
@@ -136,6 +166,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Big&gt; tag
+        /// </summary>
         public record Big : Styled
         {
             public Big() : base("big")
@@ -147,6 +180,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Blockquote&gt; tag
+        /// </summary>
         public record Blockquote : Styled
         {
             public Blockquote() : base("blockquote")
@@ -158,6 +194,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Body&gt; tag
+        /// </summary>
         public record Body : Styled
         {
             public Body() : base("body")
@@ -169,6 +208,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Br&gt; tag
+        /// </summary>
         public record Br : Styled
         {
             public Br() : base("br")
@@ -180,6 +222,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Button&gt; tag
+        /// </summary>
         public record Button : Styled
         {
             public Button() : base("button")
@@ -191,6 +236,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Canvas&gt; tag
+        /// </summary>
         public record Canvas : Styled
         {
             public Canvas() : base("canvas")
@@ -202,6 +250,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Caption&gt; tag
+        /// </summary>
         public record Caption : Styled
         {
             public Caption() : base("caption")
@@ -213,6 +264,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Cite&gt; tag
+        /// </summary>
         public record Cite : Styled
         {
             public Cite() : base("cite")
@@ -224,6 +278,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Code&gt; tag
+        /// </summary>
         public record Code : Styled
         {
             public Code() : base("code")
@@ -235,6 +292,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Col&gt; tag
+        /// </summary>
         public record Col : Styled
         {
             public Col() : base("col")
@@ -246,6 +306,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Colgroup&gt; tag
+        /// </summary>
         public record Colgroup : Styled
         {
             public Colgroup() : base("colgroup")
@@ -257,6 +320,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Data&gt; tag
+        /// </summary>
         public record Data : Styled
         {
             public Data() : base("data")
@@ -268,6 +334,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Datalist&gt; tag
+        /// </summary>
         public record Datalist : Styled
         {
             public Datalist() : base("datalist")
@@ -279,6 +348,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Dd&gt; tag
+        /// </summary>
         public record Dd : Styled
         {
             public Dd() : base("dd")
@@ -290,6 +362,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Del&gt; tag
+        /// </summary>
         public record Del : Styled
         {
             public Del() : base("del")
@@ -301,6 +376,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Details&gt; tag
+        /// </summary>
         public record Details : Styled
         {
             public Details() : base("details")
@@ -312,6 +390,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Dfn&gt; tag
+        /// </summary>
         public record Dfn : Styled
         {
             public Dfn() : base("dfn")
@@ -323,6 +404,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Dialog&gt; tag
+        /// </summary>
         public record Dialog : Styled
         {
             public Dialog() : base("dialog")
@@ -334,6 +418,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Div&gt; tag
+        /// </summary>
         public record Div : Styled
         {
             public Div() : base("div")
@@ -345,6 +432,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Dl&gt; tag
+        /// </summary>
         public record Dl : Styled
         {
             public Dl() : base("dl")
@@ -356,6 +446,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Dt&gt; tag
+        /// </summary>
         public record Dt : Styled
         {
             public Dt() : base("dt")
@@ -367,6 +460,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Em&gt; tag
+        /// </summary>
         public record Em : Styled
         {
             public Em() : base("em")
@@ -378,6 +474,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Embed&gt; tag
+        /// </summary>
         public record Embed : Styled
         {
             public Embed() : base("embed")
@@ -389,6 +488,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Fieldset&gt; tag
+        /// </summary>
         public record Fieldset : Styled
         {
             public Fieldset() : base("fieldset")
@@ -400,6 +502,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Figcaption&gt; tag
+        /// </summary>
         public record Figcaption : Styled
         {
             public Figcaption() : base("figcaption")
@@ -411,6 +516,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Figure&gt; tag
+        /// </summary>
         public record Figure : Styled
         {
             public Figure() : base("figure")
@@ -422,6 +530,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Footer&gt; tag
+        /// </summary>
         public record Footer : Styled
         {
             public Footer() : base("footer")
@@ -433,6 +544,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Form&gt; tag
+        /// </summary>
         public record Form : Styled
         {
             public Form() : base("form")
@@ -444,6 +558,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;H1&gt; tag
+        /// </summary>
         public record H1 : Styled
         {
             public H1() : base("h1")
@@ -455,6 +572,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;H2&gt; tag
+        /// </summary>
         public record H2 : Styled
         {
             public H2() : base("h2")
@@ -466,6 +586,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;H3&gt; tag
+        /// </summary>
         public record H3 : Styled
         {
             public H3() : base("h3")
@@ -477,6 +600,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;H4&gt; tag
+        /// </summary>
         public record H4 : Styled
         {
             public H4() : base("h4")
@@ -488,6 +614,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;H5&gt; tag
+        /// </summary>
         public record H5 : Styled
         {
             public H5() : base("h5")
@@ -499,6 +628,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;H6&gt; tag
+        /// </summary>
         public record H6 : Styled
         {
             public H6() : base("h6")
@@ -510,6 +642,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Head&gt; tag
+        /// </summary>
         public record Head : Styled
         {
             public Head() : base("head")
@@ -521,6 +656,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Header&gt; tag
+        /// </summary>
         public record Header : Styled
         {
             public Header() : base("header")
@@ -532,6 +670,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Hgroup&gt; tag
+        /// </summary>
         public record Hgroup : Styled
         {
             public Hgroup() : base("hgroup")
@@ -543,6 +684,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Hr&gt; tag
+        /// </summary>
         public record Hr : Styled
         {
             public Hr() : base("hr")
@@ -554,6 +698,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Html&gt; tag
+        /// </summary>
         public record Html : Styled
         {
             public Html() : base("html")
@@ -565,6 +712,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;I&gt; tag
+        /// </summary>
         public record I : Styled
         {
             public I() : base("i")
@@ -576,6 +726,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Iframe&gt; tag
+        /// </summary>
         public record Iframe : Styled
         {
             public Iframe() : base("iframe")
@@ -587,6 +740,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Img&gt; tag
+        /// </summary>
         public record Img : Styled
         {
             public Img() : base("img")
@@ -598,6 +754,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Input&gt; tag
+        /// </summary>
         public record Input : Styled
         {
             public Input() : base("input")
@@ -609,6 +768,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Ins&gt; tag
+        /// </summary>
         public record Ins : Styled
         {
             public Ins() : base("ins")
@@ -620,6 +782,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Kbd&gt; tag
+        /// </summary>
         public record Kbd : Styled
         {
             public Kbd() : base("kbd")
@@ -631,6 +796,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Keygen&gt; tag
+        /// </summary>
         public record Keygen : Styled
         {
             public Keygen() : base("keygen")
@@ -642,6 +810,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Label&gt; tag
+        /// </summary>
         public record Label : Styled
         {
             public Label() : base("label")
@@ -653,6 +824,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Legend&gt; tag
+        /// </summary>
         public record Legend : Styled
         {
             public Legend() : base("legend")
@@ -664,6 +838,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Li&gt; tag
+        /// </summary>
         public record Li : Styled
         {
             public Li() : base("li")
@@ -675,6 +852,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Link&gt; tag
+        /// </summary>
         public record Link : Styled
         {
             public Link() : base("link")
@@ -686,6 +866,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Main&gt; tag
+        /// </summary>
         public record Main : Styled
         {
             public Main() : base("main")
@@ -697,6 +880,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Map&gt; tag
+        /// </summary>
         public record Map : Styled
         {
             public Map() : base("map")
@@ -708,6 +894,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Mark&gt; tag
+        /// </summary>
         public record Mark : Styled
         {
             public Mark() : base("mark")
@@ -719,6 +908,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Marquee&gt; tag
+        /// </summary>
         public record Marquee : Styled
         {
             public Marquee() : base("marquee")
@@ -730,6 +922,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Menu&gt; tag
+        /// </summary>
         public record Menu : Styled
         {
             public Menu() : base("menu")
@@ -741,6 +936,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Menuitem&gt; tag
+        /// </summary>
         public record Menuitem : Styled
         {
             public Menuitem() : base("menuitem")
@@ -752,6 +950,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Meta&gt; tag
+        /// </summary>
         public record Meta : Styled
         {
             public Meta() : base("meta")
@@ -763,6 +964,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Meter&gt; tag
+        /// </summary>
         public record Meter : Styled
         {
             public Meter() : base("meter")
@@ -774,6 +978,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Nav&gt; tag
+        /// </summary>
         public record Nav : Styled
         {
             public Nav() : base("nav")
@@ -785,6 +992,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Noscript&gt; tag
+        /// </summary>
         public record Noscript : Styled
         {
             public Noscript() : base("noscript")
@@ -796,6 +1006,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Object&gt; tag
+        /// </summary>
         public record Object : Styled
         {
             public Object() : base("object")
@@ -807,6 +1020,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Ol&gt; tag
+        /// </summary>
         public record Ol : Styled
         {
             public Ol() : base("ol")
@@ -818,6 +1034,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Optgroup&gt; tag
+        /// </summary>
         public record Optgroup : Styled
         {
             public Optgroup() : base("optgroup")
@@ -829,6 +1048,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Option&gt; tag
+        /// </summary>
         public record Option : Styled
         {
             public Option() : base("option")
@@ -840,6 +1062,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Output&gt; tag
+        /// </summary>
         public record Output : Styled
         {
             public Output() : base("output")
@@ -851,6 +1076,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;P&gt; tag
+        /// </summary>
         public record P : Styled
         {
             public P() : base("p")
@@ -862,6 +1090,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Param&gt; tag
+        /// </summary>
         public record Param : Styled
         {
             public Param() : base("param")
@@ -873,6 +1104,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Picture&gt; tag
+        /// </summary>
         public record Picture : Styled
         {
             public Picture() : base("picture")
@@ -884,6 +1118,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Pre&gt; tag
+        /// </summary>
         public record Pre : Styled
         {
             public Pre() : base("pre")
@@ -895,6 +1132,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Progress&gt; tag
+        /// </summary>
         public record Progress : Styled
         {
             public Progress() : base("progress")
@@ -906,6 +1146,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Q&gt; tag
+        /// </summary>
         public record Q : Styled
         {
             public Q() : base("q")
@@ -917,6 +1160,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Rp&gt; tag
+        /// </summary>
         public record Rp : Styled
         {
             public Rp() : base("rp")
@@ -928,6 +1174,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Rt&gt; tag
+        /// </summary>
         public record Rt : Styled
         {
             public Rt() : base("rt")
@@ -939,6 +1188,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Ruby&gt; tag
+        /// </summary>
         public record Ruby : Styled
         {
             public Ruby() : base("ruby")
@@ -950,6 +1202,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;S&gt; tag
+        /// </summary>
         public record S : Styled
         {
             public S() : base("s")
@@ -961,6 +1216,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Samp&gt; tag
+        /// </summary>
         public record Samp : Styled
         {
             public Samp() : base("samp")
@@ -972,6 +1230,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Script&gt; tag
+        /// </summary>
         public record Script : Styled
         {
             public Script() : base("script")
@@ -983,6 +1244,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Section&gt; tag
+        /// </summary>
         public record Section : Styled
         {
             public Section() : base("section")
@@ -994,6 +1258,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Select&gt; tag
+        /// </summary>
         public record Select : Styled
         {
             public Select() : base("select")
@@ -1005,6 +1272,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Small&gt; tag
+        /// </summary>
         public record Small : Styled
         {
             public Small() : base("small")
@@ -1016,6 +1286,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Source&gt; tag
+        /// </summary>
         public record Source : Styled
         {
             public Source() : base("source")
@@ -1027,6 +1300,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Span&gt; tag
+        /// </summary>
         public record Span : Styled
         {
             public Span() : base("span")
@@ -1038,6 +1314,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Strong&gt; tag
+        /// </summary>
         public record Strong : Styled
         {
             public Strong() : base("strong")
@@ -1049,6 +1328,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Style&gt; tag
+        /// </summary>
         public record Style : Styled
         {
             public Style() : base("style")
@@ -1060,6 +1342,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Sub&gt; tag
+        /// </summary>
         public record Sub : Styled
         {
             public Sub() : base("sub")
@@ -1071,6 +1356,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Summary&gt; tag
+        /// </summary>
         public record Summary : Styled
         {
             public Summary() : base("summary")
@@ -1082,6 +1370,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Sup&gt; tag
+        /// </summary>
         public record Sup : Styled
         {
             public Sup() : base("sup")
@@ -1093,6 +1384,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Table&gt; tag
+        /// </summary>
         public record Table : Styled
         {
             public Table() : base("table")
@@ -1104,6 +1398,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Tbody&gt; tag
+        /// </summary>
         public record Tbody : Styled
         {
             public Tbody() : base("tbody")
@@ -1115,6 +1412,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Td&gt; tag
+        /// </summary>
         public record Td : Styled
         {
             public Td() : base("td")
@@ -1126,6 +1426,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Textarea&gt; tag
+        /// </summary>
         public record Textarea : Styled
         {
             public Textarea() : base("textarea")
@@ -1137,6 +1440,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Tfoot&gt; tag
+        /// </summary>
         public record Tfoot : Styled
         {
             public Tfoot() : base("tfoot")
@@ -1148,6 +1454,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Th&gt; tag
+        /// </summary>
         public record Th : Styled
         {
             public Th() : base("th")
@@ -1159,6 +1468,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Thead&gt; tag
+        /// </summary>
         public record Thead : Styled
         {
             public Thead() : base("thead")
@@ -1170,6 +1482,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Time&gt; tag
+        /// </summary>
         public record Time : Styled
         {
             public Time() : base("time")
@@ -1181,6 +1496,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Title&gt; tag
+        /// </summary>
         public record Title : Styled
         {
             public Title() : base("title")
@@ -1192,6 +1510,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Tr&gt; tag
+        /// </summary>
         public record Tr : Styled
         {
             public Tr() : base("tr")
@@ -1203,6 +1524,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Track&gt; tag
+        /// </summary>
         public record Track : Styled
         {
             public Track() : base("track")
@@ -1214,6 +1538,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;U&gt; tag
+        /// </summary>
         public record U : Styled
         {
             public U() : base("u")
@@ -1225,6 +1552,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Ul&gt; tag
+        /// </summary>
         public record Ul : Styled
         {
             public Ul() : base("ul")
@@ -1236,6 +1566,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Var&gt; tag
+        /// </summary>
         public record Var : Styled
         {
             public Var() : base("var")
@@ -1247,6 +1580,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Video&gt; tag
+        /// </summary>
         public record Video : Styled
         {
             public Video() : base("video")
@@ -1258,6 +1594,9 @@ namespace StyledBlazor
             }
         }
 
+        /// <summary>
+        /// Creates a new styled component with a &lt;Wbr&gt; tag
+        /// </summary>
         public record Wbr : Styled
         {
             public Wbr() : base("wbr")

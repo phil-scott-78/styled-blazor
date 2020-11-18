@@ -34,9 +34,6 @@
     WriteLine("// </auto-generated>");
     WriteLine("//------------------------------------------------------------------------------");
     WriteLine("");
-    WriteLine("using System;");
-    WriteLine("using System.Collections.Generic;");
-    WriteLine("");
     WriteLine("#nullable enable");
     WriteLine("");
     WriteLine("namespace StyledBlazor");
@@ -57,7 +54,9 @@
         {
             first = false;
         }
-
+        WriteLine("        /// <summary>");
+        WriteLine("        /// Creates a new styled component with a &lt;{0}&gt; tag", upperElement);
+        WriteLine("        /// </summary>");
         WriteLine("        public record {0} : Styled", upperElement);
         WriteLine("        {");
         WriteLine("            public {0}() : base(\"{1}\")", upperElement, element);

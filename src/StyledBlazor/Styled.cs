@@ -21,16 +21,27 @@ namespace StyledBlazor
             _css = css;
         }
 
+        /// <summary>
+        /// Set custom attributes such as role or aria fields
+        /// </summary>
+        /// <returns></returns>
         protected virtual IEnumerable<StyledAttribute> Attributes()
         {
             yield break;
         }
 
+        /// <summary>
+        /// Called when building the control to allow dynamic styling based on
+        /// component attributes
+        /// </summary>
+        /// <returns></returns>
         protected virtual string CssClasses()
         {
             return "";
         }
 
+
+        /// <inheritdoc />
         protected override void BuildRenderTree(RenderTreeBuilder builder)
         {
             // attributes defined at the class definition are overwritten by instance

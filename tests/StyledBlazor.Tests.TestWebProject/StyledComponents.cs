@@ -7,6 +7,10 @@ using StyledBlazor;
 // ReSharper disable CheckNamespace
 // ReSharper disable MissingBlankLines
 
+// Be nice if razor it supported nested classes or partial namespaces, but alas.
+// Best we can do is move them to a top level namespace and disable warnings about
+// that kinds of tomfoolery.
+
 namespace Buttons
 {
     public record Primary() : Styled.Button("btn btn-primary");
@@ -29,6 +33,8 @@ namespace Alerts
 
     public record Alert() : Styled.Div("alert")
     {
+        // getting a little fancier, allow different styling based on a parameter
+        // of the object and also setting an attribute value
         [Parameter] public AlertType Type { get; set; }
 
         protected override IEnumerable<StyledAttribute> Attributes()
