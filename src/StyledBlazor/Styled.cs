@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
@@ -8,17 +9,29 @@ namespace StyledBlazor
     /// <summary>
     /// Represents an attribute of a styled component
     /// </summary>
-    public sealed record StyledAttribute(string Name, string Value);
+    public sealed record StyledAttribute(string Name, string Value)
+    {
+        public static implicit operator StyledAttribute((string Name, string Value) t) => new(t.Name, t.Value);
+    }
 
     public partial record Styled : ComponentBaseRecord
     {
         private readonly string _control;
         private readonly string _css;
+        private readonly StyledAttribute[] _styledAttributes;
 
-        public Styled(string control, string css = "")
+        public Styled(string control, string css = "", params StyledAttribute[]? styledAttributes)
         {
             _control = control;
             _css = css;
+            _styledAttributes = styledAttributes ?? Array.Empty<StyledAttribute>();
+        }
+        
+        public Styled(string control, params StyledAttribute[]? styledAttributes)
+        {
+            _control = control;
+            _css = "";
+            _styledAttributes = styledAttributes ?? Array.Empty<StyledAttribute>();
         }
 
         /// <summary>
@@ -47,8 +60,10 @@ namespace StyledBlazor
             // attributes defined at the class definition are overwritten by instance
             // and then we add the CSS. Merge will concat the CSS attribute
             var classAttributes = Attributes().ToDictionary(k => k.Name, v => (object)v.Value);
+            var constructorAttributes = _styledAttributes.ToDictionary(k => k.Name, v => (object)v.Value);
 
-            var attributes = classAttributes
+            var attributes = constructorAttributes
+                .Merge(classAttributes)
                 .Merge(AdditionalAttributes)
                 .Merge(new Dictionary<string, object> {{"class", _css + " " + CssClasses()}});
 

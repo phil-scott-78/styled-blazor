@@ -31,16 +31,11 @@ namespace Alerts
         Dark
     }
 
-    public record Alert() : Styled.Div("alert")
+    public record Alert() : Styled.Div("alert", ("role", "alert"))
     {
         // getting a little fancier, allow different styling based on a parameter
         // of the object and also setting an attribute value
         [Parameter] public AlertType Type { get; set; }
-
-        protected override IEnumerable<StyledAttribute> Attributes()
-        {
-            yield return new("role", "alert");
-        }
 
         protected override string CssClasses()
         {

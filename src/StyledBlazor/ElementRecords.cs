@@ -21,7 +21,11 @@ namespace StyledBlazor
             {
             }
 
-            public A(string cssClass) : base("A", cssClass)
+            public A(string cssClass, params StyledAttribute[] styledAttributes) : base("A", cssClass, styledAttributes)
+            {
+            }
+
+            public A(params StyledAttribute[] styledAttributes) : base("A", styledAttributes)
             {
             }
         }
@@ -35,7 +39,11 @@ namespace StyledBlazor
             {
             }
 
-            public Abbr(string cssClass) : base("Abbr", cssClass)
+            public Abbr(string cssClass, params StyledAttribute[] styledAttributes) : base("Abbr", cssClass, styledAttributes)
+            {
+            }
+
+            public Abbr(params StyledAttribute[] styledAttributes) : base("Abbr", styledAttributes)
             {
             }
         }
@@ -49,7 +57,11 @@ namespace StyledBlazor
             {
             }
 
-            public Address(string cssClass) : base("Address", cssClass)
+            public Address(string cssClass, params StyledAttribute[] styledAttributes) : base("Address", cssClass, styledAttributes)
+            {
+            }
+
+            public Address(params StyledAttribute[] styledAttributes) : base("Address", styledAttributes)
             {
             }
         }
@@ -63,7 +75,11 @@ namespace StyledBlazor
             {
             }
 
-            public Area(string cssClass) : base("Area", cssClass)
+            public Area(string cssClass, params StyledAttribute[] styledAttributes) : base("Area", cssClass, styledAttributes)
+            {
+            }
+
+            public Area(params StyledAttribute[] styledAttributes) : base("Area", styledAttributes)
             {
             }
         }
@@ -77,7 +93,11 @@ namespace StyledBlazor
             {
             }
 
-            public Article(string cssClass) : base("Article", cssClass)
+            public Article(string cssClass, params StyledAttribute[] styledAttributes) : base("Article", cssClass, styledAttributes)
+            {
+            }
+
+            public Article(params StyledAttribute[] styledAttributes) : base("Article", styledAttributes)
             {
             }
         }
@@ -91,7 +111,11 @@ namespace StyledBlazor
             {
             }
 
-            public Aside(string cssClass) : base("Aside", cssClass)
+            public Aside(string cssClass, params StyledAttribute[] styledAttributes) : base("Aside", cssClass, styledAttributes)
+            {
+            }
+
+            public Aside(params StyledAttribute[] styledAttributes) : base("Aside", styledAttributes)
             {
             }
         }
@@ -105,7 +129,11 @@ namespace StyledBlazor
             {
             }
 
-            public Audio(string cssClass) : base("Audio", cssClass)
+            public Audio(string cssClass, params StyledAttribute[] styledAttributes) : base("Audio", cssClass, styledAttributes)
+            {
+            }
+
+            public Audio(params StyledAttribute[] styledAttributes) : base("Audio", styledAttributes)
             {
             }
         }
@@ -119,7 +147,11 @@ namespace StyledBlazor
             {
             }
 
-            public B(string cssClass) : base("B", cssClass)
+            public B(string cssClass, params StyledAttribute[] styledAttributes) : base("B", cssClass, styledAttributes)
+            {
+            }
+
+            public B(params StyledAttribute[] styledAttributes) : base("B", styledAttributes)
             {
             }
         }
@@ -133,7 +165,11 @@ namespace StyledBlazor
             {
             }
 
-            public Base(string cssClass) : base("Base", cssClass)
+            public Base(string cssClass, params StyledAttribute[] styledAttributes) : base("Base", cssClass, styledAttributes)
+            {
+            }
+
+            public Base(params StyledAttribute[] styledAttributes) : base("Base", styledAttributes)
             {
             }
         }
@@ -147,7 +183,11 @@ namespace StyledBlazor
             {
             }
 
-            public Bdi(string cssClass) : base("Bdi", cssClass)
+            public Bdi(string cssClass, params StyledAttribute[] styledAttributes) : base("Bdi", cssClass, styledAttributes)
+            {
+            }
+
+            public Bdi(params StyledAttribute[] styledAttributes) : base("Bdi", styledAttributes)
             {
             }
         }
@@ -161,7 +201,11 @@ namespace StyledBlazor
             {
             }
 
-            public Bdo(string cssClass) : base("Bdo", cssClass)
+            public Bdo(string cssClass, params StyledAttribute[] styledAttributes) : base("Bdo", cssClass, styledAttributes)
+            {
+            }
+
+            public Bdo(params StyledAttribute[] styledAttributes) : base("Bdo", styledAttributes)
             {
             }
         }
@@ -175,7 +219,11 @@ namespace StyledBlazor
             {
             }
 
-            public Big(string cssClass) : base("Big", cssClass)
+            public Big(string cssClass, params StyledAttribute[] styledAttributes) : base("Big", cssClass, styledAttributes)
+            {
+            }
+
+            public Big(params StyledAttribute[] styledAttributes) : base("Big", styledAttributes)
             {
             }
         }
@@ -189,7 +237,11 @@ namespace StyledBlazor
             {
             }
 
-            public Blockquote(string cssClass) : base("Blockquote", cssClass)
+            public Blockquote(string cssClass, params StyledAttribute[] styledAttributes) : base("Blockquote", cssClass, styledAttributes)
+            {
+            }
+
+            public Blockquote(params StyledAttribute[] styledAttributes) : base("Blockquote", styledAttributes)
             {
             }
         }
@@ -203,7 +255,11 @@ namespace StyledBlazor
             {
             }
 
-            public Body(string cssClass) : base("Body", cssClass)
+            public Body(string cssClass, params StyledAttribute[] styledAttributes) : base("Body", cssClass, styledAttributes)
+            {
+            }
+
+            public Body(params StyledAttribute[] styledAttributes) : base("Body", styledAttributes)
             {
             }
         }
@@ -217,7 +273,11 @@ namespace StyledBlazor
             {
             }
 
-            public Br(string cssClass) : base("Br", cssClass)
+            public Br(string cssClass, params StyledAttribute[] styledAttributes) : base("Br", cssClass, styledAttributes)
+            {
+            }
+
+            public Br(params StyledAttribute[] styledAttributes) : base("Br", styledAttributes)
             {
             }
         }
@@ -231,7 +291,11 @@ namespace StyledBlazor
             {
             }
 
-            public Button(string cssClass) : base("Button", cssClass)
+            public Button(string cssClass, params StyledAttribute[] styledAttributes) : base("Button", cssClass, styledAttributes)
+            {
+            }
+
+            public Button(params StyledAttribute[] styledAttributes) : base("Button", styledAttributes)
             {
             }
         }
@@ -245,7 +309,11 @@ namespace StyledBlazor
             {
             }
 
-            public Canvas(string cssClass) : base("Canvas", cssClass)
+            public Canvas(string cssClass, params StyledAttribute[] styledAttributes) : base("Canvas", cssClass, styledAttributes)
+            {
+            }
+
+            public Canvas(params StyledAttribute[] styledAttributes) : base("Canvas", styledAttributes)
             {
             }
         }
@@ -259,7 +327,11 @@ namespace StyledBlazor
             {
             }
 
-            public Caption(string cssClass) : base("Caption", cssClass)
+            public Caption(string cssClass, params StyledAttribute[] styledAttributes) : base("Caption", cssClass, styledAttributes)
+            {
+            }
+
+            public Caption(params StyledAttribute[] styledAttributes) : base("Caption", styledAttributes)
             {
             }
         }
@@ -273,7 +345,11 @@ namespace StyledBlazor
             {
             }
 
-            public Cite(string cssClass) : base("Cite", cssClass)
+            public Cite(string cssClass, params StyledAttribute[] styledAttributes) : base("Cite", cssClass, styledAttributes)
+            {
+            }
+
+            public Cite(params StyledAttribute[] styledAttributes) : base("Cite", styledAttributes)
             {
             }
         }
@@ -287,7 +363,11 @@ namespace StyledBlazor
             {
             }
 
-            public Code(string cssClass) : base("Code", cssClass)
+            public Code(string cssClass, params StyledAttribute[] styledAttributes) : base("Code", cssClass, styledAttributes)
+            {
+            }
+
+            public Code(params StyledAttribute[] styledAttributes) : base("Code", styledAttributes)
             {
             }
         }
@@ -301,7 +381,11 @@ namespace StyledBlazor
             {
             }
 
-            public Col(string cssClass) : base("Col", cssClass)
+            public Col(string cssClass, params StyledAttribute[] styledAttributes) : base("Col", cssClass, styledAttributes)
+            {
+            }
+
+            public Col(params StyledAttribute[] styledAttributes) : base("Col", styledAttributes)
             {
             }
         }
@@ -315,7 +399,11 @@ namespace StyledBlazor
             {
             }
 
-            public Colgroup(string cssClass) : base("Colgroup", cssClass)
+            public Colgroup(string cssClass, params StyledAttribute[] styledAttributes) : base("Colgroup", cssClass, styledAttributes)
+            {
+            }
+
+            public Colgroup(params StyledAttribute[] styledAttributes) : base("Colgroup", styledAttributes)
             {
             }
         }
@@ -329,7 +417,11 @@ namespace StyledBlazor
             {
             }
 
-            public Data(string cssClass) : base("Data", cssClass)
+            public Data(string cssClass, params StyledAttribute[] styledAttributes) : base("Data", cssClass, styledAttributes)
+            {
+            }
+
+            public Data(params StyledAttribute[] styledAttributes) : base("Data", styledAttributes)
             {
             }
         }
@@ -343,7 +435,11 @@ namespace StyledBlazor
             {
             }
 
-            public Datalist(string cssClass) : base("Datalist", cssClass)
+            public Datalist(string cssClass, params StyledAttribute[] styledAttributes) : base("Datalist", cssClass, styledAttributes)
+            {
+            }
+
+            public Datalist(params StyledAttribute[] styledAttributes) : base("Datalist", styledAttributes)
             {
             }
         }
@@ -357,7 +453,11 @@ namespace StyledBlazor
             {
             }
 
-            public Dd(string cssClass) : base("Dd", cssClass)
+            public Dd(string cssClass, params StyledAttribute[] styledAttributes) : base("Dd", cssClass, styledAttributes)
+            {
+            }
+
+            public Dd(params StyledAttribute[] styledAttributes) : base("Dd", styledAttributes)
             {
             }
         }
@@ -371,7 +471,11 @@ namespace StyledBlazor
             {
             }
 
-            public Del(string cssClass) : base("Del", cssClass)
+            public Del(string cssClass, params StyledAttribute[] styledAttributes) : base("Del", cssClass, styledAttributes)
+            {
+            }
+
+            public Del(params StyledAttribute[] styledAttributes) : base("Del", styledAttributes)
             {
             }
         }
@@ -385,7 +489,11 @@ namespace StyledBlazor
             {
             }
 
-            public Details(string cssClass) : base("Details", cssClass)
+            public Details(string cssClass, params StyledAttribute[] styledAttributes) : base("Details", cssClass, styledAttributes)
+            {
+            }
+
+            public Details(params StyledAttribute[] styledAttributes) : base("Details", styledAttributes)
             {
             }
         }
@@ -399,7 +507,11 @@ namespace StyledBlazor
             {
             }
 
-            public Dfn(string cssClass) : base("Dfn", cssClass)
+            public Dfn(string cssClass, params StyledAttribute[] styledAttributes) : base("Dfn", cssClass, styledAttributes)
+            {
+            }
+
+            public Dfn(params StyledAttribute[] styledAttributes) : base("Dfn", styledAttributes)
             {
             }
         }
@@ -413,7 +525,11 @@ namespace StyledBlazor
             {
             }
 
-            public Dialog(string cssClass) : base("Dialog", cssClass)
+            public Dialog(string cssClass, params StyledAttribute[] styledAttributes) : base("Dialog", cssClass, styledAttributes)
+            {
+            }
+
+            public Dialog(params StyledAttribute[] styledAttributes) : base("Dialog", styledAttributes)
             {
             }
         }
@@ -427,7 +543,11 @@ namespace StyledBlazor
             {
             }
 
-            public Div(string cssClass) : base("Div", cssClass)
+            public Div(string cssClass, params StyledAttribute[] styledAttributes) : base("Div", cssClass, styledAttributes)
+            {
+            }
+
+            public Div(params StyledAttribute[] styledAttributes) : base("Div", styledAttributes)
             {
             }
         }
@@ -441,7 +561,11 @@ namespace StyledBlazor
             {
             }
 
-            public Dl(string cssClass) : base("Dl", cssClass)
+            public Dl(string cssClass, params StyledAttribute[] styledAttributes) : base("Dl", cssClass, styledAttributes)
+            {
+            }
+
+            public Dl(params StyledAttribute[] styledAttributes) : base("Dl", styledAttributes)
             {
             }
         }
@@ -455,7 +579,11 @@ namespace StyledBlazor
             {
             }
 
-            public Dt(string cssClass) : base("Dt", cssClass)
+            public Dt(string cssClass, params StyledAttribute[] styledAttributes) : base("Dt", cssClass, styledAttributes)
+            {
+            }
+
+            public Dt(params StyledAttribute[] styledAttributes) : base("Dt", styledAttributes)
             {
             }
         }
@@ -469,7 +597,11 @@ namespace StyledBlazor
             {
             }
 
-            public Em(string cssClass) : base("Em", cssClass)
+            public Em(string cssClass, params StyledAttribute[] styledAttributes) : base("Em", cssClass, styledAttributes)
+            {
+            }
+
+            public Em(params StyledAttribute[] styledAttributes) : base("Em", styledAttributes)
             {
             }
         }
@@ -483,7 +615,11 @@ namespace StyledBlazor
             {
             }
 
-            public Embed(string cssClass) : base("Embed", cssClass)
+            public Embed(string cssClass, params StyledAttribute[] styledAttributes) : base("Embed", cssClass, styledAttributes)
+            {
+            }
+
+            public Embed(params StyledAttribute[] styledAttributes) : base("Embed", styledAttributes)
             {
             }
         }
@@ -497,7 +633,11 @@ namespace StyledBlazor
             {
             }
 
-            public Fieldset(string cssClass) : base("Fieldset", cssClass)
+            public Fieldset(string cssClass, params StyledAttribute[] styledAttributes) : base("Fieldset", cssClass, styledAttributes)
+            {
+            }
+
+            public Fieldset(params StyledAttribute[] styledAttributes) : base("Fieldset", styledAttributes)
             {
             }
         }
@@ -511,7 +651,11 @@ namespace StyledBlazor
             {
             }
 
-            public Figcaption(string cssClass) : base("Figcaption", cssClass)
+            public Figcaption(string cssClass, params StyledAttribute[] styledAttributes) : base("Figcaption", cssClass, styledAttributes)
+            {
+            }
+
+            public Figcaption(params StyledAttribute[] styledAttributes) : base("Figcaption", styledAttributes)
             {
             }
         }
@@ -525,7 +669,11 @@ namespace StyledBlazor
             {
             }
 
-            public Figure(string cssClass) : base("Figure", cssClass)
+            public Figure(string cssClass, params StyledAttribute[] styledAttributes) : base("Figure", cssClass, styledAttributes)
+            {
+            }
+
+            public Figure(params StyledAttribute[] styledAttributes) : base("Figure", styledAttributes)
             {
             }
         }
@@ -539,7 +687,11 @@ namespace StyledBlazor
             {
             }
 
-            public Footer(string cssClass) : base("Footer", cssClass)
+            public Footer(string cssClass, params StyledAttribute[] styledAttributes) : base("Footer", cssClass, styledAttributes)
+            {
+            }
+
+            public Footer(params StyledAttribute[] styledAttributes) : base("Footer", styledAttributes)
             {
             }
         }
@@ -553,7 +705,11 @@ namespace StyledBlazor
             {
             }
 
-            public Form(string cssClass) : base("Form", cssClass)
+            public Form(string cssClass, params StyledAttribute[] styledAttributes) : base("Form", cssClass, styledAttributes)
+            {
+            }
+
+            public Form(params StyledAttribute[] styledAttributes) : base("Form", styledAttributes)
             {
             }
         }
@@ -567,7 +723,11 @@ namespace StyledBlazor
             {
             }
 
-            public H1(string cssClass) : base("H1", cssClass)
+            public H1(string cssClass, params StyledAttribute[] styledAttributes) : base("H1", cssClass, styledAttributes)
+            {
+            }
+
+            public H1(params StyledAttribute[] styledAttributes) : base("H1", styledAttributes)
             {
             }
         }
@@ -581,7 +741,11 @@ namespace StyledBlazor
             {
             }
 
-            public H2(string cssClass) : base("H2", cssClass)
+            public H2(string cssClass, params StyledAttribute[] styledAttributes) : base("H2", cssClass, styledAttributes)
+            {
+            }
+
+            public H2(params StyledAttribute[] styledAttributes) : base("H2", styledAttributes)
             {
             }
         }
@@ -595,7 +759,11 @@ namespace StyledBlazor
             {
             }
 
-            public H3(string cssClass) : base("H3", cssClass)
+            public H3(string cssClass, params StyledAttribute[] styledAttributes) : base("H3", cssClass, styledAttributes)
+            {
+            }
+
+            public H3(params StyledAttribute[] styledAttributes) : base("H3", styledAttributes)
             {
             }
         }
@@ -609,7 +777,11 @@ namespace StyledBlazor
             {
             }
 
-            public H4(string cssClass) : base("H4", cssClass)
+            public H4(string cssClass, params StyledAttribute[] styledAttributes) : base("H4", cssClass, styledAttributes)
+            {
+            }
+
+            public H4(params StyledAttribute[] styledAttributes) : base("H4", styledAttributes)
             {
             }
         }
@@ -623,7 +795,11 @@ namespace StyledBlazor
             {
             }
 
-            public H5(string cssClass) : base("H5", cssClass)
+            public H5(string cssClass, params StyledAttribute[] styledAttributes) : base("H5", cssClass, styledAttributes)
+            {
+            }
+
+            public H5(params StyledAttribute[] styledAttributes) : base("H5", styledAttributes)
             {
             }
         }
@@ -637,7 +813,11 @@ namespace StyledBlazor
             {
             }
 
-            public H6(string cssClass) : base("H6", cssClass)
+            public H6(string cssClass, params StyledAttribute[] styledAttributes) : base("H6", cssClass, styledAttributes)
+            {
+            }
+
+            public H6(params StyledAttribute[] styledAttributes) : base("H6", styledAttributes)
             {
             }
         }
@@ -651,7 +831,11 @@ namespace StyledBlazor
             {
             }
 
-            public Head(string cssClass) : base("Head", cssClass)
+            public Head(string cssClass, params StyledAttribute[] styledAttributes) : base("Head", cssClass, styledAttributes)
+            {
+            }
+
+            public Head(params StyledAttribute[] styledAttributes) : base("Head", styledAttributes)
             {
             }
         }
@@ -665,7 +849,11 @@ namespace StyledBlazor
             {
             }
 
-            public Header(string cssClass) : base("Header", cssClass)
+            public Header(string cssClass, params StyledAttribute[] styledAttributes) : base("Header", cssClass, styledAttributes)
+            {
+            }
+
+            public Header(params StyledAttribute[] styledAttributes) : base("Header", styledAttributes)
             {
             }
         }
@@ -679,7 +867,11 @@ namespace StyledBlazor
             {
             }
 
-            public Hgroup(string cssClass) : base("Hgroup", cssClass)
+            public Hgroup(string cssClass, params StyledAttribute[] styledAttributes) : base("Hgroup", cssClass, styledAttributes)
+            {
+            }
+
+            public Hgroup(params StyledAttribute[] styledAttributes) : base("Hgroup", styledAttributes)
             {
             }
         }
@@ -693,7 +885,11 @@ namespace StyledBlazor
             {
             }
 
-            public Hr(string cssClass) : base("Hr", cssClass)
+            public Hr(string cssClass, params StyledAttribute[] styledAttributes) : base("Hr", cssClass, styledAttributes)
+            {
+            }
+
+            public Hr(params StyledAttribute[] styledAttributes) : base("Hr", styledAttributes)
             {
             }
         }
@@ -707,7 +903,11 @@ namespace StyledBlazor
             {
             }
 
-            public Html(string cssClass) : base("Html", cssClass)
+            public Html(string cssClass, params StyledAttribute[] styledAttributes) : base("Html", cssClass, styledAttributes)
+            {
+            }
+
+            public Html(params StyledAttribute[] styledAttributes) : base("Html", styledAttributes)
             {
             }
         }
@@ -721,7 +921,11 @@ namespace StyledBlazor
             {
             }
 
-            public I(string cssClass) : base("I", cssClass)
+            public I(string cssClass, params StyledAttribute[] styledAttributes) : base("I", cssClass, styledAttributes)
+            {
+            }
+
+            public I(params StyledAttribute[] styledAttributes) : base("I", styledAttributes)
             {
             }
         }
@@ -735,7 +939,11 @@ namespace StyledBlazor
             {
             }
 
-            public Iframe(string cssClass) : base("Iframe", cssClass)
+            public Iframe(string cssClass, params StyledAttribute[] styledAttributes) : base("Iframe", cssClass, styledAttributes)
+            {
+            }
+
+            public Iframe(params StyledAttribute[] styledAttributes) : base("Iframe", styledAttributes)
             {
             }
         }
@@ -749,7 +957,11 @@ namespace StyledBlazor
             {
             }
 
-            public Img(string cssClass) : base("Img", cssClass)
+            public Img(string cssClass, params StyledAttribute[] styledAttributes) : base("Img", cssClass, styledAttributes)
+            {
+            }
+
+            public Img(params StyledAttribute[] styledAttributes) : base("Img", styledAttributes)
             {
             }
         }
@@ -763,7 +975,11 @@ namespace StyledBlazor
             {
             }
 
-            public Input(string cssClass) : base("Input", cssClass)
+            public Input(string cssClass, params StyledAttribute[] styledAttributes) : base("Input", cssClass, styledAttributes)
+            {
+            }
+
+            public Input(params StyledAttribute[] styledAttributes) : base("Input", styledAttributes)
             {
             }
         }
@@ -777,7 +993,11 @@ namespace StyledBlazor
             {
             }
 
-            public Ins(string cssClass) : base("Ins", cssClass)
+            public Ins(string cssClass, params StyledAttribute[] styledAttributes) : base("Ins", cssClass, styledAttributes)
+            {
+            }
+
+            public Ins(params StyledAttribute[] styledAttributes) : base("Ins", styledAttributes)
             {
             }
         }
@@ -791,7 +1011,11 @@ namespace StyledBlazor
             {
             }
 
-            public Kbd(string cssClass) : base("Kbd", cssClass)
+            public Kbd(string cssClass, params StyledAttribute[] styledAttributes) : base("Kbd", cssClass, styledAttributes)
+            {
+            }
+
+            public Kbd(params StyledAttribute[] styledAttributes) : base("Kbd", styledAttributes)
             {
             }
         }
@@ -805,7 +1029,11 @@ namespace StyledBlazor
             {
             }
 
-            public Keygen(string cssClass) : base("Keygen", cssClass)
+            public Keygen(string cssClass, params StyledAttribute[] styledAttributes) : base("Keygen", cssClass, styledAttributes)
+            {
+            }
+
+            public Keygen(params StyledAttribute[] styledAttributes) : base("Keygen", styledAttributes)
             {
             }
         }
@@ -819,7 +1047,11 @@ namespace StyledBlazor
             {
             }
 
-            public Label(string cssClass) : base("Label", cssClass)
+            public Label(string cssClass, params StyledAttribute[] styledAttributes) : base("Label", cssClass, styledAttributes)
+            {
+            }
+
+            public Label(params StyledAttribute[] styledAttributes) : base("Label", styledAttributes)
             {
             }
         }
@@ -833,7 +1065,11 @@ namespace StyledBlazor
             {
             }
 
-            public Legend(string cssClass) : base("Legend", cssClass)
+            public Legend(string cssClass, params StyledAttribute[] styledAttributes) : base("Legend", cssClass, styledAttributes)
+            {
+            }
+
+            public Legend(params StyledAttribute[] styledAttributes) : base("Legend", styledAttributes)
             {
             }
         }
@@ -847,7 +1083,11 @@ namespace StyledBlazor
             {
             }
 
-            public Li(string cssClass) : base("Li", cssClass)
+            public Li(string cssClass, params StyledAttribute[] styledAttributes) : base("Li", cssClass, styledAttributes)
+            {
+            }
+
+            public Li(params StyledAttribute[] styledAttributes) : base("Li", styledAttributes)
             {
             }
         }
@@ -861,7 +1101,11 @@ namespace StyledBlazor
             {
             }
 
-            public Link(string cssClass) : base("Link", cssClass)
+            public Link(string cssClass, params StyledAttribute[] styledAttributes) : base("Link", cssClass, styledAttributes)
+            {
+            }
+
+            public Link(params StyledAttribute[] styledAttributes) : base("Link", styledAttributes)
             {
             }
         }
@@ -875,7 +1119,11 @@ namespace StyledBlazor
             {
             }
 
-            public Main(string cssClass) : base("Main", cssClass)
+            public Main(string cssClass, params StyledAttribute[] styledAttributes) : base("Main", cssClass, styledAttributes)
+            {
+            }
+
+            public Main(params StyledAttribute[] styledAttributes) : base("Main", styledAttributes)
             {
             }
         }
@@ -889,7 +1137,11 @@ namespace StyledBlazor
             {
             }
 
-            public Map(string cssClass) : base("Map", cssClass)
+            public Map(string cssClass, params StyledAttribute[] styledAttributes) : base("Map", cssClass, styledAttributes)
+            {
+            }
+
+            public Map(params StyledAttribute[] styledAttributes) : base("Map", styledAttributes)
             {
             }
         }
@@ -903,7 +1155,11 @@ namespace StyledBlazor
             {
             }
 
-            public Mark(string cssClass) : base("Mark", cssClass)
+            public Mark(string cssClass, params StyledAttribute[] styledAttributes) : base("Mark", cssClass, styledAttributes)
+            {
+            }
+
+            public Mark(params StyledAttribute[] styledAttributes) : base("Mark", styledAttributes)
             {
             }
         }
@@ -917,7 +1173,11 @@ namespace StyledBlazor
             {
             }
 
-            public Marquee(string cssClass) : base("Marquee", cssClass)
+            public Marquee(string cssClass, params StyledAttribute[] styledAttributes) : base("Marquee", cssClass, styledAttributes)
+            {
+            }
+
+            public Marquee(params StyledAttribute[] styledAttributes) : base("Marquee", styledAttributes)
             {
             }
         }
@@ -931,7 +1191,11 @@ namespace StyledBlazor
             {
             }
 
-            public Menu(string cssClass) : base("Menu", cssClass)
+            public Menu(string cssClass, params StyledAttribute[] styledAttributes) : base("Menu", cssClass, styledAttributes)
+            {
+            }
+
+            public Menu(params StyledAttribute[] styledAttributes) : base("Menu", styledAttributes)
             {
             }
         }
@@ -945,7 +1209,11 @@ namespace StyledBlazor
             {
             }
 
-            public Menuitem(string cssClass) : base("Menuitem", cssClass)
+            public Menuitem(string cssClass, params StyledAttribute[] styledAttributes) : base("Menuitem", cssClass, styledAttributes)
+            {
+            }
+
+            public Menuitem(params StyledAttribute[] styledAttributes) : base("Menuitem", styledAttributes)
             {
             }
         }
@@ -959,7 +1227,11 @@ namespace StyledBlazor
             {
             }
 
-            public Meta(string cssClass) : base("Meta", cssClass)
+            public Meta(string cssClass, params StyledAttribute[] styledAttributes) : base("Meta", cssClass, styledAttributes)
+            {
+            }
+
+            public Meta(params StyledAttribute[] styledAttributes) : base("Meta", styledAttributes)
             {
             }
         }
@@ -973,7 +1245,11 @@ namespace StyledBlazor
             {
             }
 
-            public Meter(string cssClass) : base("Meter", cssClass)
+            public Meter(string cssClass, params StyledAttribute[] styledAttributes) : base("Meter", cssClass, styledAttributes)
+            {
+            }
+
+            public Meter(params StyledAttribute[] styledAttributes) : base("Meter", styledAttributes)
             {
             }
         }
@@ -987,7 +1263,11 @@ namespace StyledBlazor
             {
             }
 
-            public Nav(string cssClass) : base("Nav", cssClass)
+            public Nav(string cssClass, params StyledAttribute[] styledAttributes) : base("Nav", cssClass, styledAttributes)
+            {
+            }
+
+            public Nav(params StyledAttribute[] styledAttributes) : base("Nav", styledAttributes)
             {
             }
         }
@@ -1001,7 +1281,11 @@ namespace StyledBlazor
             {
             }
 
-            public Noscript(string cssClass) : base("Noscript", cssClass)
+            public Noscript(string cssClass, params StyledAttribute[] styledAttributes) : base("Noscript", cssClass, styledAttributes)
+            {
+            }
+
+            public Noscript(params StyledAttribute[] styledAttributes) : base("Noscript", styledAttributes)
             {
             }
         }
@@ -1015,7 +1299,11 @@ namespace StyledBlazor
             {
             }
 
-            public Object(string cssClass) : base("Object", cssClass)
+            public Object(string cssClass, params StyledAttribute[] styledAttributes) : base("Object", cssClass, styledAttributes)
+            {
+            }
+
+            public Object(params StyledAttribute[] styledAttributes) : base("Object", styledAttributes)
             {
             }
         }
@@ -1029,7 +1317,11 @@ namespace StyledBlazor
             {
             }
 
-            public Ol(string cssClass) : base("Ol", cssClass)
+            public Ol(string cssClass, params StyledAttribute[] styledAttributes) : base("Ol", cssClass, styledAttributes)
+            {
+            }
+
+            public Ol(params StyledAttribute[] styledAttributes) : base("Ol", styledAttributes)
             {
             }
         }
@@ -1043,7 +1335,11 @@ namespace StyledBlazor
             {
             }
 
-            public Optgroup(string cssClass) : base("Optgroup", cssClass)
+            public Optgroup(string cssClass, params StyledAttribute[] styledAttributes) : base("Optgroup", cssClass, styledAttributes)
+            {
+            }
+
+            public Optgroup(params StyledAttribute[] styledAttributes) : base("Optgroup", styledAttributes)
             {
             }
         }
@@ -1057,7 +1353,11 @@ namespace StyledBlazor
             {
             }
 
-            public Option(string cssClass) : base("Option", cssClass)
+            public Option(string cssClass, params StyledAttribute[] styledAttributes) : base("Option", cssClass, styledAttributes)
+            {
+            }
+
+            public Option(params StyledAttribute[] styledAttributes) : base("Option", styledAttributes)
             {
             }
         }
@@ -1071,7 +1371,11 @@ namespace StyledBlazor
             {
             }
 
-            public Output(string cssClass) : base("Output", cssClass)
+            public Output(string cssClass, params StyledAttribute[] styledAttributes) : base("Output", cssClass, styledAttributes)
+            {
+            }
+
+            public Output(params StyledAttribute[] styledAttributes) : base("Output", styledAttributes)
             {
             }
         }
@@ -1085,7 +1389,11 @@ namespace StyledBlazor
             {
             }
 
-            public P(string cssClass) : base("P", cssClass)
+            public P(string cssClass, params StyledAttribute[] styledAttributes) : base("P", cssClass, styledAttributes)
+            {
+            }
+
+            public P(params StyledAttribute[] styledAttributes) : base("P", styledAttributes)
             {
             }
         }
@@ -1099,7 +1407,11 @@ namespace StyledBlazor
             {
             }
 
-            public Param(string cssClass) : base("Param", cssClass)
+            public Param(string cssClass, params StyledAttribute[] styledAttributes) : base("Param", cssClass, styledAttributes)
+            {
+            }
+
+            public Param(params StyledAttribute[] styledAttributes) : base("Param", styledAttributes)
             {
             }
         }
@@ -1113,7 +1425,11 @@ namespace StyledBlazor
             {
             }
 
-            public Picture(string cssClass) : base("Picture", cssClass)
+            public Picture(string cssClass, params StyledAttribute[] styledAttributes) : base("Picture", cssClass, styledAttributes)
+            {
+            }
+
+            public Picture(params StyledAttribute[] styledAttributes) : base("Picture", styledAttributes)
             {
             }
         }
@@ -1127,7 +1443,11 @@ namespace StyledBlazor
             {
             }
 
-            public Pre(string cssClass) : base("Pre", cssClass)
+            public Pre(string cssClass, params StyledAttribute[] styledAttributes) : base("Pre", cssClass, styledAttributes)
+            {
+            }
+
+            public Pre(params StyledAttribute[] styledAttributes) : base("Pre", styledAttributes)
             {
             }
         }
@@ -1141,7 +1461,11 @@ namespace StyledBlazor
             {
             }
 
-            public Progress(string cssClass) : base("Progress", cssClass)
+            public Progress(string cssClass, params StyledAttribute[] styledAttributes) : base("Progress", cssClass, styledAttributes)
+            {
+            }
+
+            public Progress(params StyledAttribute[] styledAttributes) : base("Progress", styledAttributes)
             {
             }
         }
@@ -1155,7 +1479,11 @@ namespace StyledBlazor
             {
             }
 
-            public Q(string cssClass) : base("Q", cssClass)
+            public Q(string cssClass, params StyledAttribute[] styledAttributes) : base("Q", cssClass, styledAttributes)
+            {
+            }
+
+            public Q(params StyledAttribute[] styledAttributes) : base("Q", styledAttributes)
             {
             }
         }
@@ -1169,7 +1497,11 @@ namespace StyledBlazor
             {
             }
 
-            public Rp(string cssClass) : base("Rp", cssClass)
+            public Rp(string cssClass, params StyledAttribute[] styledAttributes) : base("Rp", cssClass, styledAttributes)
+            {
+            }
+
+            public Rp(params StyledAttribute[] styledAttributes) : base("Rp", styledAttributes)
             {
             }
         }
@@ -1183,7 +1515,11 @@ namespace StyledBlazor
             {
             }
 
-            public Rt(string cssClass) : base("Rt", cssClass)
+            public Rt(string cssClass, params StyledAttribute[] styledAttributes) : base("Rt", cssClass, styledAttributes)
+            {
+            }
+
+            public Rt(params StyledAttribute[] styledAttributes) : base("Rt", styledAttributes)
             {
             }
         }
@@ -1197,7 +1533,11 @@ namespace StyledBlazor
             {
             }
 
-            public Ruby(string cssClass) : base("Ruby", cssClass)
+            public Ruby(string cssClass, params StyledAttribute[] styledAttributes) : base("Ruby", cssClass, styledAttributes)
+            {
+            }
+
+            public Ruby(params StyledAttribute[] styledAttributes) : base("Ruby", styledAttributes)
             {
             }
         }
@@ -1211,7 +1551,11 @@ namespace StyledBlazor
             {
             }
 
-            public S(string cssClass) : base("S", cssClass)
+            public S(string cssClass, params StyledAttribute[] styledAttributes) : base("S", cssClass, styledAttributes)
+            {
+            }
+
+            public S(params StyledAttribute[] styledAttributes) : base("S", styledAttributes)
             {
             }
         }
@@ -1225,7 +1569,11 @@ namespace StyledBlazor
             {
             }
 
-            public Samp(string cssClass) : base("Samp", cssClass)
+            public Samp(string cssClass, params StyledAttribute[] styledAttributes) : base("Samp", cssClass, styledAttributes)
+            {
+            }
+
+            public Samp(params StyledAttribute[] styledAttributes) : base("Samp", styledAttributes)
             {
             }
         }
@@ -1239,7 +1587,11 @@ namespace StyledBlazor
             {
             }
 
-            public Script(string cssClass) : base("Script", cssClass)
+            public Script(string cssClass, params StyledAttribute[] styledAttributes) : base("Script", cssClass, styledAttributes)
+            {
+            }
+
+            public Script(params StyledAttribute[] styledAttributes) : base("Script", styledAttributes)
             {
             }
         }
@@ -1253,7 +1605,11 @@ namespace StyledBlazor
             {
             }
 
-            public Section(string cssClass) : base("Section", cssClass)
+            public Section(string cssClass, params StyledAttribute[] styledAttributes) : base("Section", cssClass, styledAttributes)
+            {
+            }
+
+            public Section(params StyledAttribute[] styledAttributes) : base("Section", styledAttributes)
             {
             }
         }
@@ -1267,7 +1623,11 @@ namespace StyledBlazor
             {
             }
 
-            public Select(string cssClass) : base("Select", cssClass)
+            public Select(string cssClass, params StyledAttribute[] styledAttributes) : base("Select", cssClass, styledAttributes)
+            {
+            }
+
+            public Select(params StyledAttribute[] styledAttributes) : base("Select", styledAttributes)
             {
             }
         }
@@ -1281,7 +1641,11 @@ namespace StyledBlazor
             {
             }
 
-            public Small(string cssClass) : base("Small", cssClass)
+            public Small(string cssClass, params StyledAttribute[] styledAttributes) : base("Small", cssClass, styledAttributes)
+            {
+            }
+
+            public Small(params StyledAttribute[] styledAttributes) : base("Small", styledAttributes)
             {
             }
         }
@@ -1295,7 +1659,11 @@ namespace StyledBlazor
             {
             }
 
-            public Source(string cssClass) : base("Source", cssClass)
+            public Source(string cssClass, params StyledAttribute[] styledAttributes) : base("Source", cssClass, styledAttributes)
+            {
+            }
+
+            public Source(params StyledAttribute[] styledAttributes) : base("Source", styledAttributes)
             {
             }
         }
@@ -1309,7 +1677,11 @@ namespace StyledBlazor
             {
             }
 
-            public Span(string cssClass) : base("Span", cssClass)
+            public Span(string cssClass, params StyledAttribute[] styledAttributes) : base("Span", cssClass, styledAttributes)
+            {
+            }
+
+            public Span(params StyledAttribute[] styledAttributes) : base("Span", styledAttributes)
             {
             }
         }
@@ -1323,7 +1695,11 @@ namespace StyledBlazor
             {
             }
 
-            public Strong(string cssClass) : base("Strong", cssClass)
+            public Strong(string cssClass, params StyledAttribute[] styledAttributes) : base("Strong", cssClass, styledAttributes)
+            {
+            }
+
+            public Strong(params StyledAttribute[] styledAttributes) : base("Strong", styledAttributes)
             {
             }
         }
@@ -1337,7 +1713,11 @@ namespace StyledBlazor
             {
             }
 
-            public Style(string cssClass) : base("Style", cssClass)
+            public Style(string cssClass, params StyledAttribute[] styledAttributes) : base("Style", cssClass, styledAttributes)
+            {
+            }
+
+            public Style(params StyledAttribute[] styledAttributes) : base("Style", styledAttributes)
             {
             }
         }
@@ -1351,7 +1731,11 @@ namespace StyledBlazor
             {
             }
 
-            public Sub(string cssClass) : base("Sub", cssClass)
+            public Sub(string cssClass, params StyledAttribute[] styledAttributes) : base("Sub", cssClass, styledAttributes)
+            {
+            }
+
+            public Sub(params StyledAttribute[] styledAttributes) : base("Sub", styledAttributes)
             {
             }
         }
@@ -1365,7 +1749,11 @@ namespace StyledBlazor
             {
             }
 
-            public Summary(string cssClass) : base("Summary", cssClass)
+            public Summary(string cssClass, params StyledAttribute[] styledAttributes) : base("Summary", cssClass, styledAttributes)
+            {
+            }
+
+            public Summary(params StyledAttribute[] styledAttributes) : base("Summary", styledAttributes)
             {
             }
         }
@@ -1379,7 +1767,11 @@ namespace StyledBlazor
             {
             }
 
-            public Sup(string cssClass) : base("Sup", cssClass)
+            public Sup(string cssClass, params StyledAttribute[] styledAttributes) : base("Sup", cssClass, styledAttributes)
+            {
+            }
+
+            public Sup(params StyledAttribute[] styledAttributes) : base("Sup", styledAttributes)
             {
             }
         }
@@ -1393,7 +1785,11 @@ namespace StyledBlazor
             {
             }
 
-            public Table(string cssClass) : base("Table", cssClass)
+            public Table(string cssClass, params StyledAttribute[] styledAttributes) : base("Table", cssClass, styledAttributes)
+            {
+            }
+
+            public Table(params StyledAttribute[] styledAttributes) : base("Table", styledAttributes)
             {
             }
         }
@@ -1407,7 +1803,11 @@ namespace StyledBlazor
             {
             }
 
-            public Tbody(string cssClass) : base("Tbody", cssClass)
+            public Tbody(string cssClass, params StyledAttribute[] styledAttributes) : base("Tbody", cssClass, styledAttributes)
+            {
+            }
+
+            public Tbody(params StyledAttribute[] styledAttributes) : base("Tbody", styledAttributes)
             {
             }
         }
@@ -1421,7 +1821,11 @@ namespace StyledBlazor
             {
             }
 
-            public Td(string cssClass) : base("Td", cssClass)
+            public Td(string cssClass, params StyledAttribute[] styledAttributes) : base("Td", cssClass, styledAttributes)
+            {
+            }
+
+            public Td(params StyledAttribute[] styledAttributes) : base("Td", styledAttributes)
             {
             }
         }
@@ -1435,7 +1839,11 @@ namespace StyledBlazor
             {
             }
 
-            public Textarea(string cssClass) : base("Textarea", cssClass)
+            public Textarea(string cssClass, params StyledAttribute[] styledAttributes) : base("Textarea", cssClass, styledAttributes)
+            {
+            }
+
+            public Textarea(params StyledAttribute[] styledAttributes) : base("Textarea", styledAttributes)
             {
             }
         }
@@ -1449,7 +1857,11 @@ namespace StyledBlazor
             {
             }
 
-            public Tfoot(string cssClass) : base("Tfoot", cssClass)
+            public Tfoot(string cssClass, params StyledAttribute[] styledAttributes) : base("Tfoot", cssClass, styledAttributes)
+            {
+            }
+
+            public Tfoot(params StyledAttribute[] styledAttributes) : base("Tfoot", styledAttributes)
             {
             }
         }
@@ -1463,7 +1875,11 @@ namespace StyledBlazor
             {
             }
 
-            public Th(string cssClass) : base("Th", cssClass)
+            public Th(string cssClass, params StyledAttribute[] styledAttributes) : base("Th", cssClass, styledAttributes)
+            {
+            }
+
+            public Th(params StyledAttribute[] styledAttributes) : base("Th", styledAttributes)
             {
             }
         }
@@ -1477,7 +1893,11 @@ namespace StyledBlazor
             {
             }
 
-            public Thead(string cssClass) : base("Thead", cssClass)
+            public Thead(string cssClass, params StyledAttribute[] styledAttributes) : base("Thead", cssClass, styledAttributes)
+            {
+            }
+
+            public Thead(params StyledAttribute[] styledAttributes) : base("Thead", styledAttributes)
             {
             }
         }
@@ -1491,7 +1911,11 @@ namespace StyledBlazor
             {
             }
 
-            public Time(string cssClass) : base("Time", cssClass)
+            public Time(string cssClass, params StyledAttribute[] styledAttributes) : base("Time", cssClass, styledAttributes)
+            {
+            }
+
+            public Time(params StyledAttribute[] styledAttributes) : base("Time", styledAttributes)
             {
             }
         }
@@ -1505,7 +1929,11 @@ namespace StyledBlazor
             {
             }
 
-            public Title(string cssClass) : base("Title", cssClass)
+            public Title(string cssClass, params StyledAttribute[] styledAttributes) : base("Title", cssClass, styledAttributes)
+            {
+            }
+
+            public Title(params StyledAttribute[] styledAttributes) : base("Title", styledAttributes)
             {
             }
         }
@@ -1519,7 +1947,11 @@ namespace StyledBlazor
             {
             }
 
-            public Tr(string cssClass) : base("Tr", cssClass)
+            public Tr(string cssClass, params StyledAttribute[] styledAttributes) : base("Tr", cssClass, styledAttributes)
+            {
+            }
+
+            public Tr(params StyledAttribute[] styledAttributes) : base("Tr", styledAttributes)
             {
             }
         }
@@ -1533,7 +1965,11 @@ namespace StyledBlazor
             {
             }
 
-            public Track(string cssClass) : base("Track", cssClass)
+            public Track(string cssClass, params StyledAttribute[] styledAttributes) : base("Track", cssClass, styledAttributes)
+            {
+            }
+
+            public Track(params StyledAttribute[] styledAttributes) : base("Track", styledAttributes)
             {
             }
         }
@@ -1547,7 +1983,11 @@ namespace StyledBlazor
             {
             }
 
-            public U(string cssClass) : base("U", cssClass)
+            public U(string cssClass, params StyledAttribute[] styledAttributes) : base("U", cssClass, styledAttributes)
+            {
+            }
+
+            public U(params StyledAttribute[] styledAttributes) : base("U", styledAttributes)
             {
             }
         }
@@ -1561,7 +2001,11 @@ namespace StyledBlazor
             {
             }
 
-            public Ul(string cssClass) : base("Ul", cssClass)
+            public Ul(string cssClass, params StyledAttribute[] styledAttributes) : base("Ul", cssClass, styledAttributes)
+            {
+            }
+
+            public Ul(params StyledAttribute[] styledAttributes) : base("Ul", styledAttributes)
             {
             }
         }
@@ -1575,7 +2019,11 @@ namespace StyledBlazor
             {
             }
 
-            public Var(string cssClass) : base("Var", cssClass)
+            public Var(string cssClass, params StyledAttribute[] styledAttributes) : base("Var", cssClass, styledAttributes)
+            {
+            }
+
+            public Var(params StyledAttribute[] styledAttributes) : base("Var", styledAttributes)
             {
             }
         }
@@ -1589,7 +2037,11 @@ namespace StyledBlazor
             {
             }
 
-            public Video(string cssClass) : base("Video", cssClass)
+            public Video(string cssClass, params StyledAttribute[] styledAttributes) : base("Video", cssClass, styledAttributes)
+            {
+            }
+
+            public Video(params StyledAttribute[] styledAttributes) : base("Video", styledAttributes)
             {
             }
         }
@@ -1603,7 +2055,11 @@ namespace StyledBlazor
             {
             }
 
-            public Wbr(string cssClass) : base("Wbr", cssClass)
+            public Wbr(string cssClass, params StyledAttribute[] styledAttributes) : base("Wbr", cssClass, styledAttributes)
+            {
+            }
+
+            public Wbr(params StyledAttribute[] styledAttributes) : base("Wbr", styledAttributes)
             {
             }
         }

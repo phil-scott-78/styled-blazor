@@ -4,13 +4,10 @@ using Xunit;
 
 namespace StyledBlazor.Tests
 {
-    internal record CustomStyledDiv() : Styled.Div("mb-4")
-    {
-        protected override IEnumerable<StyledAttribute> Attributes()
-        {
-            yield return new("style", "border: 1px solid #ccc;");
-        }
-    }
+    internal record CustomStyledDiv() : Styled.Div(
+        ("class", "mb-4"),
+        ("style", "border: 1px solid #ccc;")
+    );
 
     public class ComponentWithStylingTests
     {
@@ -25,7 +22,10 @@ namespace StyledBlazor.Tests
             );
 
             cut.MarkupMatches(
-                "<div class=\"mt-4 mb-4\" style=\"border: 1px solid #ccc;padding-top:4px;\">alert text</div>");
+                @"
+<div class=""mt-4 mb-4"" style=""border: 1px solid #ccc;padding-top:4px;"">
+    alert text
+</div>");
         }
     }
 }

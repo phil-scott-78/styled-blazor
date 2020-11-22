@@ -63,7 +63,11 @@
         WriteLine("            {");
         WriteLine("            }");
         WriteLine("");
-        WriteLine("            public {0}(string cssClass) : base(\"{0}\", cssClass)", upperElement);
+        WriteLine("            public {0}(string cssClass, params StyledAttribute[] styledAttributes) : base(\"{0}\", cssClass, styledAttributes)", upperElement);
+        WriteLine("            {");
+        WriteLine("            }");
+        WriteLine("");
+        WriteLine("            public {0}(params StyledAttribute[] styledAttributes) : base(\"{0}\", styledAttributes)", upperElement);
         WriteLine("            {");
         WriteLine("            }");
         WriteLine("        }");
