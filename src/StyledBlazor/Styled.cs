@@ -26,7 +26,7 @@ namespace StyledBlazor
             _css = css;
             _styledAttributes = styledAttributes ?? Array.Empty<StyledAttribute>();
         }
-        
+
         public Styled(string control, params StyledAttribute[]? styledAttributes)
         {
             _control = control;
@@ -59,8 +59,8 @@ namespace StyledBlazor
         {
             // attributes defined at the class definition are overwritten by instance
             // and then we add the CSS. Merge will concat the CSS attribute
-            var classAttributes = Attributes().ToDictionary(k => k.Name, v => (object)v.Value);
-            var constructorAttributes = _styledAttributes.ToDictionary(k => k.Name, v => (object)v.Value);
+            var classAttributes = Attributes().ToMergedDictionary();
+            var constructorAttributes = _styledAttributes.ToMergedDictionary();
 
             var attributes = constructorAttributes
                 .Merge(classAttributes)
@@ -86,6 +86,25 @@ namespace StyledBlazor
 
     internal static class DictionaryHelper
     {
+        public static IReadOnlyDictionary<string, object> ToMergedDictionary(
+            this IEnumerable<StyledAttribute> attributes)
+        {
+            var newDict = new Dictionary<string, object>();
+            foreach (var (key, value) in attributes)
+            {
+                // try and add from the dictionary of merged values
+                // if it already exists we'll need to either overwrite or merge
+                // depending on the key
+                if (newDict.TryAdd(key, value))
+                    continue;
+
+                var previousValue = newDict[key] as string ?? string.Empty;
+                newDict[key] = SetValue(key, previousValue, value);
+            }
+
+            return newDict;
+        }
+
         public static IReadOnlyDictionary<string, object> Merge(
             this IReadOnlyDictionary<string, object> targetDict,
             IReadOnlyDictionary<string, object> mergedDict)
@@ -101,15 +120,20 @@ namespace StyledBlazor
                     continue;
 
                 var previousValue = newDict[key] as string ?? string.Empty;
-                newDict[key] = key switch
-                {
-                    "class" => $"{previousValue.TrimEnd()} {value}",
-                    "style" => previousValue + (previousValue.EndsWith(";") ? "" : ";") + value,
-                    _ => value
-                };
+                newDict[key] = SetValue(key, previousValue, value);
             }
 
             return newDict;
+        }
+
+        private static object SetValue(string key, string previousValue, object value)
+        {
+            return key switch
+            {
+                "class" => $"{previousValue.TrimEnd()} {value}",
+                "style" => previousValue + (previousValue.EndsWith(";") ? "" : ";") + value,
+                _ => value
+            };
         }
     }
 }

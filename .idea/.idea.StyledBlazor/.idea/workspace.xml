@@ -8,13 +8,8 @@
     <list default="true" id="a687bc1c-06b0-44c3-97e5-f2878d324ea8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StyledBlazor/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StyledBlazor/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StyledBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StyledBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StyledBlazor.sln" beforeDir="false" afterPath="$PROJECT_DIR$/StyledBlazor.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StyledBlazor/ElementRecords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/StyledBlazor/ElementRecords.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StyledBlazor/ElementRecords.tt" beforeDir="false" afterPath="$PROJECT_DIR$/src/StyledBlazor/ElementRecords.tt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StyledBlazor/Styled.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/StyledBlazor/Styled.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/StyledBlazor.Tests.TestWebProject/StyledComponents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/StyledBlazor.Tests.TestWebProject/StyledComponents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/StyledBlazor.Tests/ComponentWithStylingTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/StyledBlazor.Tests/ComponentWithStylingTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/StyledBlazor.Tests/StyledAttributeTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/StyledBlazor.Tests/StyledAttributeTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://R:/Projects/StyledBlazor/src/StyledBlazor/ElementRecords.tt" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/014CAA8A-8D7D-4028-8BBB-470D08115694/A/DefaultComponentActivator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CE47249C-E0B1-4461-ABB2-B7DF5A7935D3/4/ComponentParameterCollectionBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2A925EDF-E558-4632-978E-98FD8509CDF4/a1/5d0d22d4/ExceptionAggregator.cs" root0="SKIP_HIGHLIGHTING" />
@@ -76,12 +72,13 @@
       <option value="$PROJECT_DIR$/src/StyledBlazor/ElementRecords.cs" />
       <option value="$PROJECT_DIR$/tests/StyledBlazor.Tests.TestWebProject/Shared/PrimaryButton.razor" />
       <option value="$PROJECT_DIR$/tests/StyledBlazor.Tests/UnitTest1.cs" />
-      <option value="$PROJECT_DIR$/src/StyledBlazor/Styled.cs" />
       <option value="$PROJECT_DIR$/src/StyledBlazor/ElementRecords.tt" />
-      <option value="$PROJECT_DIR$/tests/StyledBlazor.Tests/StyledAttributeTest.cs" />
       <option value="$PROJECT_DIR$/tests/StyledBlazor.Tests/ComponentWithStylingTests.cs" />
       <option value="$PROJECT_DIR$/tests/StyledBlazor.Tests.TestWebProject/StyledComponents.cs" />
       <option value="$PROJECT_DIR$/README.md" />
+      <option value="$PROJECT_DIR$/src/StyledBlazor/Styled.cs" />
+      <option value="$PROJECT_DIR$/tests/StyledBlazor.Tests/StyledAttributeTest.cs" />
+      <option value="$PROJECT_DIR$/tests/StyledBlazor.Tests/ComponentWithMultipleAttributeTests.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1jNGvcXWFbTZ1FOguFGvp61QJPb" />
@@ -218,7 +215,7 @@
       <workItem from="1605576015059" duration="4911000" />
       <workItem from="1605585729836" duration="12242000" />
       <workItem from="1605668648517" duration="6877000" />
-      <workItem from="1605987554524" duration="4674000" />
+      <workItem from="1605987554524" duration="8919000" />
     </task>
     <task id="LOCAL-00001" summary="Adding comments">
       <created>1605720959520</created>
@@ -227,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605720959520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="reworking constructor to take attributes too">
+      <created>1606072008979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606072008979</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,38 +246,38 @@
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 47% 143/268" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 52% 142/298" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 47% 143/268" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 63% 48/128" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 52% 142/298" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 67% 48/145" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 47% 143/268" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 63% 48/128" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="StyledBlazor 63% 48/128" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 52% 142/298" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 67% 48/145" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="StyledBlazor 67% 48/145" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 47% 143/268" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 63% 48/128" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="StyledBlazor 63% 48/128" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="StyledBlazor 63% 48/128" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 52% 142/298" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 67% 48/145" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="StyledBlazor 67% 48/145" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="StyledBlazor 67% 48/145" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 47% 143/268" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 63% 48/128" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="StyledBlazor 63% 48/128" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="StyledBlazor 63% 48/128" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 52% 142/298" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 67% 48/145" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="StyledBlazor 67% 48/145" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="StyledBlazor 67% 48/145" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="ComponentBaseRecord 55% 45/101" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 47% 143/268" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="tests 32% 95/140" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 52% 142/298" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="tests 39% 94/153" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -296,6 +300,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Adding comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding comments" />
+    <MESSAGE value="reworking constructor to take attributes too" />
+    <option name="LAST_COMMIT_MESSAGE" value="reworking constructor to take attributes too" />
   </component>
 </project>
