@@ -2,6 +2,8 @@
 
 Create Blazor Components with a single line of code with the magic of C# 9 records
 
+![Nuget](https://img.shields.io/nuget/v/StyledBlazor)
+
 ``` c#
 namespace Buttons
 {
